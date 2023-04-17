@@ -133,6 +133,7 @@ void loop()
       }else if(acceso_4 == true && tiquete_entrada==true){
       	Serial.println("Blue Lock te espera");
       }
+      cont = 0;
     }
   }
 }
